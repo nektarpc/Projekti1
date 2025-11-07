@@ -28,29 +28,41 @@ button:hover{
     border-radius: 5px;
     width: 100%;
     height: 30px;
+    border: solid 1px rgb(44, 198, 250);
 }
 .mbiemri{
 border-radius: 5px;
     width: 100%;
     height: 30px;
+    border: solid 1px rgb(44, 198, 250);
 }
 .email{
     border-radius: 5px;
     width: 100%;
     height: 30px;
+    border: solid 1px rgb(44, 198, 250);
 }
 .password{
     border-radius: 5px;
     width: 100%;
     height: 30px;
-}
-.ditelindja{
-    border-radius: 5px;
-    width: 100%;
-    height: 30px;
+    border: solid 1px rgb(44, 198, 250);
 }
 
 .reg{
     text-align: center;
     color: white;
+
+}
+select{
+    background-color: white;
+    color: rgb(0, 191, 255);
+}
+.btn-reg{
+margin-left: 230px;
+background-color: rgb(153, 221, 238);
+width: 150px;
+height: 35px;
+border-radius: 6px;
+border: solid 1px rgb(44, 198, 250);
 }
