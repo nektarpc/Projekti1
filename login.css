@@ -1,0 +1,53 @@
+.form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: rgb(44, 180, 250);
+   margin-top: 200px;
+   margin-left: 600px;
+   margin-right: 600px;
+   height: 300px;
+   width: 500px;
+   border-radius: 6px;
+   padding: 20px;
+   color: aliceblue;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.user{
+    width: 100%;
+    height: 35px;
+ border: solid 1px rgb(44, 180, 250) ;
+ margin: 7px;
+ border-radius: 10px;
+
+
+}
+.pass{
+    width: 100%;
+    height: 35px;
+   border: solid 1px rgb(44, 180, 250) ;
+    border-radius: 10px;
+}
+.btn-hyr{
+   border: solid 1px rgb(44, 180, 250) ;
+   margin-left: 190px;
+   width: 100px;
+   border-radius: 5px;
+   background-color: rgb(134, 213, 245);
+   
+}
+a{
+    float: right;
+}
+button:hover{
+    background-color: rgb(43, 213, 255);
+    color: white;
+    cursor: pointer;
+    
+}
+a:hover{
+    color: white;
+}
