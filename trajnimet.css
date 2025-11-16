@@ -44,11 +44,11 @@
   color: rgb(0, 0, 0);
   border-radius: 6px;
   padding: 10px 18px;
-  text-align: center;
   text-decoration: none;
   font-size: 14px;
   transition: color 0.3s;
-  margin-right: 40px;
+  margin-right: -10px;
+  margin-left: 600px;
 }
 
 .btn-login a:hover{
@@ -63,4 +63,120 @@
   color: #333;
   text-align: center;
   margin-top: 200px;
+}
+
+.btn-signup a {
+  background-color: whitesmoke;
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+  margin-right: 40px;
+}
+
+.btn-signup a:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: color 0.4s;
+}
+.trajnimet{
+    background-color: rgb(44, 198, 250);
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    padding: 20px;
+    height: 80px;
+    color: white;
+}
+.trajnimet i{
+    width: 900px;
+    height: 20px;
+    margin-left: 10px;
+    padding: 19px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 1px 4px 400px -39px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 4px 400px -39px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 4px 400px -39px rgba(0,0,0,0.75);
+}
+
+.trajnimet i:hover{
+    color: black;
+    transition: color 0.4s;
+}
+.trajnimet:hover{
+    color: black;
+    transition: color 0.4s;
+}
+
+.small-text h2{
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: -40px;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+}
+.paragrafi{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -66px;
+    color: white;
+    font-size: 13px;
+}
+.btn-reg{
+    background-color: whitesmoke;
+    border-radius: 6px;
+    margin-top: -40px;
+    margin-left: 800px;
+    margin-right: 80px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-reg:hover{
+    background-color: rgb(44, 198, 250);
+    color: whitesmoke;
+    transition: color 0.4s;
+}
+.footer {
+  background-color: #111;
+  color: #ddd;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links a {
+  color: #00bfff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #000000; 
 }
