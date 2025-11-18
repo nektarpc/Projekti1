@@ -1,27 +1,4 @@
-.rrethnesh{
-    text-align: center;
 
-}
-div{
-    background-color: rgb(44,198,250);
-    color: white;
-
-}
-.pershkrim{
-    margin-left: 20px;
-}
-.h3{
-    margin-top: 60px;
-}
-h2{
-    margin-top: 50px;
-}
-ul{
-    margin-top: 40px;
-}
-h3{
-    margin-top: 70px;
-}
 
 
 .nav-bar{
@@ -106,6 +83,7 @@ h3{
   color: #ddd;
   padding: 25px 0;
   text-align: center;
+  width: 100%;
 }
 
 .footer-content {
@@ -133,4 +111,59 @@ h3{
 
 .footer-links a:hover {
   color: #000000; 
+}
+
+.about {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: #1b1b1b;
+    background: white;
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-header h1 {
+    color: #0066cc; 
+    margin-bottom: 10px;
+}
+
+.about-section {
+    margin-bottom: 35px;
+}
+
+.about-section h2 {
+    color: #0066cc;
+    margin-bottom: 10px;
+    border-left: 4px solid #0066cc;
+    padding-left: 10px;
+}
+
+.about-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-section ul li {
+    background: #f2f8ff; 
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 6px;
+}
+
+.language-box {
+    background: #f7fbff;
+    border: 1px solid #d6eaff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.language-box h3 {
+    color: #0066cc;
+    margin-bottom: 5px;
 }
